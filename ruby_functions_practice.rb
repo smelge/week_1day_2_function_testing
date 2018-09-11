@@ -3,7 +3,7 @@ def return_10()
 end
 
 def add(num_1, num_2)
-return num_1.to_i + num_2.to_i
+return num_1 + num_2
 end
 
 def subtract(num1,num2)
@@ -24,4 +24,8 @@ end
 
 def join_string(string1,string2)
   return string1 + string2
+end
+
+def add_string_as_number(string_1, string_2)
+return string_1.to_i + string_2.to_i
 end
