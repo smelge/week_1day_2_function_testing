@@ -95,3 +95,8 @@ end
 def volume_of_cube(side)
   return side ** side
 end
+
+def volume_of_sphere(r)
+  pi=3.14
+  return (4/3) * (pi) * (r**3).floor
+end
