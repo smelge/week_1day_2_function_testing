@@ -17,3 +17,7 @@ end
 def divide(different_num1,different_num2)
   return different_num1.to_i / different_num2.to_i
 end
+
+def length_of_string(thing)
+  return  thing.length
+end
