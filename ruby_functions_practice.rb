@@ -100,3 +100,9 @@ def volume_of_sphere(r)
   pi=3.14
   return (4/3) * (pi) * (r**3).floor
 end
+
+def conv_f_to_c(fahr)
+  #return (fahr - 32) * (5/9).floor
+  return ((fahr - 32)*0.5556).floor
+
+end
