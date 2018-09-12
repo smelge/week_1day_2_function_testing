@@ -93,16 +93,15 @@ def number_to_short_month_name(month_in)
 end
 
 def volume_of_cube(side)
-  return side ** side
+  return side ** 3
 end
 
 def volume_of_sphere(r)
-  pi=3.14
-  return (4/3) * (pi) * (r**3).floor
+  pi=3.14579
+  return (4.0/3.0) * (pi) * (r**3).floor
 end
 
 def conv_f_to_c(fahr)
-  #return (fahr - 32) * (5/9).floor
   return ((fahr - 32)*0.5556).floor
 
 end
